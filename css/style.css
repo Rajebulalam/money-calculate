@@ -70,7 +70,15 @@ p{
 
 
 /* Start Header Part */
-
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img{
+    width: 40px;
+    height: 40px;
+}
 h1{
     color: #31A5AC;
     text-align: center;
