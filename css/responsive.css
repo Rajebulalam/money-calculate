@@ -1,0 +1,25 @@
+/* Start Mobile Resposive Layout */
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+
+    .container{
+        flex-direction: column;
+    }
+    .child {
+        max-width: none;
+        width: 100%;
+        height: auto;
+
+    }
+    .child:first-child{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .child:last-child{
+        margin-left: 0;
+        padding: 20px 0;
+    }
+    img{
+        width: 100%;
+    }
+}
+/* End Mobile Resposive Layout */
